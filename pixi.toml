@@ -1,7 +1,7 @@
 [project]
 channels = ["conda-forge"]
 description = "Add a short description here"
-name = "smolagent_unit1"
+name = "smolagent_tut"
 platforms = ["win-64"]
 version = "0.1.0"
 
@@ -10,8 +10,15 @@ version = "0.1.0"
 [dependencies]
 python = "3.12.*"
 ipykernel = ">=6.29.5,<7"
+gradio = ">=5.14.0,<6"
 
 [pypi-dependencies]
 smolagents = ">=1.8.1, <2"
 transformers = ">=4.48.3, <5"
 torch = ">=2.6.0, <3"
+duckduckgo-search = ">=7.3.2, <8"
+markdownify = ">=0.14.1, <0.15"
+requests = ">=2.32.3, <3"
+pandas = ">=2.2.3, <3"
+yfinance = ">=0.2.52, <0.3"
+huggingface-hub = "*"
