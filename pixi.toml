@@ -1,0 +1,17 @@
+[project]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "smolagent_unit1"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+ipykernel = ">=6.29.5,<7"
+
+[pypi-dependencies]
+smolagents = ">=1.8.1, <2"
+transformers = ">=4.48.3, <5"
+torch = ">=2.6.0, <3"
